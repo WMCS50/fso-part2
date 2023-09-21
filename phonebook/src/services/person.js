@@ -1,5 +1,8 @@
 import axios from 'axios'
-const baseUrl = '/api/persons' // part 3b, changed from http://localhost:3001/persons to relative URL
+const baseUrl = 'http://localhost:3001/api/persons' 
+// part 3b, changed from http://localhost:3001/persons to 
+// http://localhost:3001/api/persons to
+// relative URL '/api/persons' 
 
 const getAll = () => {
     const request = axios.get(baseUrl)
